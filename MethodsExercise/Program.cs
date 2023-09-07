@@ -28,13 +28,21 @@
                 "Great!" +
                 "I will now use the information you provided to write a short story, i hope you enjoy it!");
 
+            Console.WriteLine("-----------------------------------------------------");
+
 
             Console.WriteLine(
-                $"Today, {name} struggled with the day he was having at his horribly demanding job, and decided he had had enough!" + 
+                $"Today, {name} struggled with the day he was having at his horribly demanding job, and decided he had had enough!" +
 
-                $"This dead end plant job had {name} feeling {color}, and he was in desperate need of a change of employment." + 
+                " " +
 
-                $"After work, {name} rushed home as fast as a {animal} to begin looking for new opportunities for himself." + 
+                $"This dead end plant job had {name} feeling {color}, and he was in desperate need of a change of employment." +
+
+                " " +
+
+                $"After work, {name} rushed home as fast as a {animal} to begin looking for new opportunities for himself." +
+
+                " " +
 
                 $"His first choice was to join his fovorite band, but since {band} wasn't recruiting any new members, {name} decided on an exciting career in computer programming instead!");
 
