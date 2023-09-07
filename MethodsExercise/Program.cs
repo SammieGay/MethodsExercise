@@ -2,8 +2,25 @@
 {
     public class Program
     {
+        public static int Sum(int num1, int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+
+        public static int Multiply(int num1, int num2, int num3)
+        {
+            return num1 * num2 * num3;
+        }
+
         static void Main(string[] args)
         {
+
+            var amountOfCars = Sum(2, 6);
+            var blah = Multiply(60, 2, 4);
+
+            //---------------Exercise 1--------------------------
+
             Console.WriteLine("Hello, what is your name?");
 
             var name = Console.ReadLine();
@@ -28,7 +45,7 @@
                 "Great!" +
                 "I will now use the information you provided to write a short story, i hope you enjoy it!");
 
-            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("------------------------------------------------------------------------------");
 
 
             Console.WriteLine(
@@ -45,6 +62,10 @@
                 " " +
 
                 $"His first choice was to join his fovorite band, but since {band} wasn't recruiting any new members, {name} decided on an exciting career in computer programming instead!");
+
+            //---------------Exercise 2--------------------------
+
+
 
 
 
